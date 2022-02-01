@@ -18,7 +18,7 @@ provider "aws" {
       Terraform   = true
       Environment = "development"
       DoNotDelete = true
-      Name   	  = "DEMOLAND VPC"
+      Name        = "DEMOLAND VPC"
     }
   }
 

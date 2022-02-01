@@ -1,12 +1,12 @@
 locals {
-  name = "demoland"
+  cidr_block = "${var.cidr_prefix}.0.0/16"
 }
 
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
-  name = local.name
-  cidr = "10.27.0.0/16"
+  name = var.name
+  cidr = local.cidr_block
 
   azs             = ["${var.region}a", "${var.region}b"]
   private_subnets = var.private_sub_cidrs
