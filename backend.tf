@@ -1,5 +1,5 @@
 terraform {
-  required_version = "~> 1.0.11"
+  required_version = "~> 1.2.3"
   backend "remote" {
     organization = "wpmonkey"
     workspaces {
