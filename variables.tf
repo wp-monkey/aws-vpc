@@ -6,11 +6,11 @@ variable "region" {
 
 variable "name" {
   type        = string
-  default     = "demoland"
+  default     = "wpmonkey"
   description = "This will be a common named used for labeling most resources"
 }
 
 variable "cidr_prefix" {
-  default     = 10.27
-  description = "I chose 10.27 because it's a private subnet and because .27 is super random."
+  default     = 10.28
+  description = "I chose 10.28 because it's a private subnet and because .27 is super random."
 }

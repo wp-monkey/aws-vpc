@@ -14,11 +14,11 @@ provider "aws" {
   default_tags {
     tags = {
       Owner       = "Daniel Fedick"
-      Purpose     = "DEMOLAND"
+      Purpose     = "wpmonkey"
       Terraform   = true
       Environment = "development"
       DoNotDelete = true
-      Name        = "DEMOLAND VPC"
+      Name        = "WPMONKEY VPC"
     }
   }
 
